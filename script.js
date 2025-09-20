@@ -3,7 +3,7 @@ const saveBtn = document.getElementById("save-btn");
 const notesContainer = document.getElementById("notes-container");
 
 let notes = JSON.parse(localStorage.getItem("notes")) || [];
-
+//display notes
 function displayNotes() {
   notesContainer.innerHTML = "";
   notes.forEach((note, index) => {
