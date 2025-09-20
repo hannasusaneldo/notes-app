@@ -36,7 +36,7 @@ function deleteNote(index) {
   localStorage.setItem("notes", JSON.stringify(notes));
   displayNotes();
 }
-
+//test
 function editNote(index) {
   input.value = notes[index].text; // load note into input box
   saveBtn.textContent = "Update Note";
